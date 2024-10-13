@@ -4,7 +4,6 @@ import { useAuth } from "./AuthContext";
 
 const ProtectedRoute = () => {
   const { isAuthenticated } = useAuth();
-  console.log("isAuthenticated in ProtectedRoute:", isAuthenticated);
 
   return isAuthenticated ? <Outlet /> : <Navigate to="/" />;
 };

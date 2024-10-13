@@ -26,7 +26,6 @@ const Login = () => {
       if (data.success) {
         const userId = data.data.id;
         localStorage.setItem("id", userId);
-        console.log("Calling login function");
         await login();
         window.location.href = "/dashboard";
       } else {

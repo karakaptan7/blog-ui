@@ -22,7 +22,6 @@ const Register = () => {
       if (data.success) {
         window.location.href = "/";
       }
-      console.log("Registration successful:", data);
     } catch (error) {
       console.error("Error:", error);
     }
