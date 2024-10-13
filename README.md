@@ -14,7 +14,7 @@ This is the frontend application for the Blog project. It is built using modern 
 To get started with the project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/blog-frontend.git
+git clone https://github.com/karakaptan7/blog-frontend.git
 cd blog-frontend
 npm install
 ```
